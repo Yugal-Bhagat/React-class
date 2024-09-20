@@ -5,6 +5,8 @@ import Count from './Count'
 import Clock from './clock'
 import Input from './Input'
 import ToList from './ToList'
+import UseEffect from './UseEffect'
+import ApiUseEffect from './ApiUseEffect'
 const App = () => {
   let arr = [1,2,3,4,5]
 let a = 5
@@ -27,7 +29,9 @@ let b = 2
         {/* <Count/> */}
         {/* <Clock/> */}
         {/* <Input/> */}
-        <ToList/>
+        {/* <ToList/> */}
+        {/* <UseEffect/> */}
+        <ApiUseEffect/>
     </div>
   )
 }
