@@ -1,0 +1,11 @@
+*{
+    /* background-color: brown; */
+}
+nav{
+    background-color: black;
+    height: 60px;
+    width: 100vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
